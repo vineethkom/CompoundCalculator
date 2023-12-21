@@ -40,5 +40,5 @@
   "devDependencies": {
     "gh-pages": "^6.1.0"
   },
-  "homepage":"https://vineethkom.github.io/CompoundCalculator"
+  "homepage":{"https://vineethkom.github.io/CompoundCalculator"}
 }
