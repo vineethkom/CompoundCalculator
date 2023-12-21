@@ -1,0 +1,65 @@
+.calcContainer {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Graduate', serif;
+}
+
+.heading {
+    color: #333;
+    /* font-family: 'Arial', sans-serif; */
+    margin-bottom: 20px;
+}
+
+.inputLabel {
+    display: block;
+    margin: 10px 0 5px;
+    color: #666;
+    font-size: 16px;
+    /* font-family: 'Arial', sans-serif; */
+}
+
+.InputField {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+}
+
+.styledButton {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5851DB; /* Instagram-like gradient primary color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Graduate', serif;
+    transition: background-color 0.3s;
+}
+
+.styledButton:hover {
+    background-color: #4834D4; /* Slightly darker on hover */
+}
+
+.resultText {
+    margin-top: 20px;
+    color: #333;
+    /* font-family: 'Arial', sans-serif; */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .calcContainer {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
